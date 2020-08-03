@@ -48,7 +48,7 @@ client.on("message", msg => {
     let args = messageArray.slice(1); 
             let caseid = Date.now() + msg.author.discriminator
     if (msg.content.startsWith(prefix + "sug" || msg.content.startsWith(prefix + "sug"))){
-            let suggestionchat = msg.guild.channels.find(channel => channel.name === "اسم الروم الي ينرسل فيه الاقتراح") 
+            let suggestionchat = msg.guild.channels.find(channel => channel.name === "《▪اقتراحات") 
             let suggestion =  args.join(' '); 
             if(!suggestion) return message.channel.send('الرجاء وضع اقتراحك بعد الأمر');
             if(!suggestionchat) return message.channel.send('لا يمكنني ايجاد الشات');
@@ -108,4 +108,4 @@ client.on("message", msg => {
 
 
 
-client.login("");//التوكن
+client.login("NzM5ODUwNjU5MTA4NzQ5Mzg0.Xygdng.onfviWFBLN9LMb4PUviYUUZecRg");//التوكن
